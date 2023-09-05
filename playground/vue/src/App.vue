@@ -3,7 +3,9 @@ import { ShiningText } from "vue-shining-text"
 </script>
 
 <template>
-  <ShiningText />
+  <ShiningText>
+    Hello World
+  </ShiningText>
 </template>
 
 <style>
