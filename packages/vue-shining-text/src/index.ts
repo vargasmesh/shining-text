@@ -1,1 +1,2 @@
-export * from "./ShiningText.vue";
+import ShiningText from "./components/ShiningText.vue";
+export { ShiningText };

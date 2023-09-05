@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
+import { ShiningText } from "vue-shining-text"
 </script>
 
 <template>
-  hi
+  <ShiningText />
 </template>
 
 <style>
