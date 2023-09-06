@@ -10,7 +10,9 @@ import { ShiningText } from "vue-shining-text"
 
 <style>
 body {
+  margin-top: 20rem;
   background-color: #1c1c1c;
   height: 100vh;
+  text-align: center;
 }
 </style>
