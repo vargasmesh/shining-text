@@ -5,12 +5,17 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./index.mjs"
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./dist/index.js"
     }
   },
+  "main": "./dist/index.js",
+  "types": "./index.d.ts",
   "files": [
     "dist",
-    "index.mjs"
+    "index.mjs",
+    "index.d.ts"
   ],
   "scripts": {
     "build": "unbuild"
