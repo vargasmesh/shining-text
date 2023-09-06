@@ -28,14 +28,10 @@ import MagicStar from "./MagicStar.vue"
 }
 
 .magic {
-    display: inline-block;
     position: relative;
 }
 
 .magic>.magic-text {
-    color: white;
-    font-size: 4rem;
-
     --purple: rgb(123, 31, 162);
     --violet: rgb(103, 58, 183);
     --pink: rgb(244, 143, 177);
@@ -52,5 +48,6 @@ import MagicStar from "./MagicStar.vue"
 
     background-size: 200%;
     animation: background-pan 3s linear infinite;
+    display: inline-block;
 }
 </style>
