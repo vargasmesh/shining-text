@@ -67,16 +67,11 @@ onMounted(() => {
 }
 
 .blink {
-    animation: scale 700ms ease infinite;
+    animation: scale 1000ms ease infinite;
 }
 
 .magic-star {
-    --size: clamp(20px, 1.5vw, 30px);
-
-    display: block;
-    height: var(--size);
     position: absolute;
-    width: var(--size);
 }
 
 .magic-star>svg {

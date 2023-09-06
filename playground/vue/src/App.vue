@@ -4,7 +4,7 @@ import { ShiningText } from "vue-shining-text"
 
 <template>
   <ShiningText>
-    <span style="font-size: 8rem;">Hello World</span>
+    <span style="font-size: 4rem;">Hello World</span>
   </ShiningText>
 </template>
 
